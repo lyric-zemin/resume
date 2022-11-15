@@ -1,0 +1,26 @@
+html,
+body {
+  margin-top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+pre {
+  max-height: 90%;
+  width: 100%;
+  overflow: auto;
+  border-radius: 1px;
+}
+
+a:after {
+  content: '';
+  padding-right: 5px;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+}
